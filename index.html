@@ -5,34 +5,123 @@
   <title>Reparación de Computadoras</title>
 
   <style>
-    .logo {
-      position: fixed;
-      top: 10px;
-      right: 10px;
-      width: 80px;
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
     }
+
+    /* HEADER */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      width: 70px;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: #555;
+      font-size: 18px;
+    }
+
+    /* BOTÓN */
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 25px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background: #1ebe5d;
+    }
+
+    /* SERVICIOS */
+    .services {
+      background: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .services h2 {
+      margin-bottom: 20px;
+    }
+
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .services li {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    /* FOOTER */
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+
   </style>
 </head>
 
-<body style="font-family: Arial; text-align: center; padding: 50px;">
+<body>
 
-  <!-- LOGO -->
-  <img src="logo.jpg" class="logo">
+  <!-- HEADER -->
+  <div class="header">
+    <h3>Soporte Técnico</h3>
+    <img src="logo.png" class="logo">
+  </div>
 
-  <h1>Reparación de Computadoras</h1>
-  <p>Servicio rápido y confiable a domicilio</p>
- 
-  <h2>Servicios:</h2>
-  <ul style="list-style: none;">
-    <li>✔ Formateo</li>
-    <li>✔ Eliminación de virus</li>
-    <li>✔ Instalación de programas</li>
-    <li>✔ Mantenimiento</li>
-  </ul>
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Reparación de Computadoras</h1>
+    <p>Servicio rápido, confiable y a domicilio</p>
 
-  <a href="https://wa.me/5215516894521" 
-     style="display:inline-block; padding:15px; background:green; color:white; text-decoration:none;">
-     Contáctame por WhatsApp
-  </a>
+    <a href="https://wa.me/521TU_NUMERO" class="btn">
+      Contáctame por WhatsApp
+    </a>
+  </div>
+
+  <!-- SERVICIOS -->
+  <div class="services">
+    <h2>Servicios</h2>
+    <ul>
+      <li>✔ Eliminación de virus</li>
+      <li>✔ Formateo e instalación</li>
+      <li>✔ Mantenimiento preventivo</li>
+      <li>✔ Reparación de laptops y PC</li>
+    </ul>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    © 2026 Reparación de Computadoras | Ciudad de México
+  </div>
+
 </body>
 </html>
